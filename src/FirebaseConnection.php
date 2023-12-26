@@ -1,6 +1,6 @@
 <?php
 
-namespace MyModule\Firebase;
+namespace YourVendor\MyModule;
 
 use Kreait\Laravel\Firebase\Facades\Firebase as FirebaseFacade;
 
