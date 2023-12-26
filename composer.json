@@ -1,7 +1,6 @@
 {
     "name": "your-vendor/my-module",
     "description": "MyModule Firebase Connection",
-    "version": "1.0.0",
     "type": "library",
     "authors": [
         {
