@@ -1,0 +1,21 @@
+{
+    "name": "your-vendor/my-module",
+    "description": "MyModule Firebase Connection",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Inesh Madhushan",
+            "email": "ineshmadhushan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyModule\\Firebase\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "kreait/laravel-firebase": "^5.0"
+    }
+}
