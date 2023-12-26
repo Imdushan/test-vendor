@@ -15,7 +15,7 @@
         }
     },
     "require": {
-        "php": "^7.4",
-        "kreait/laravel-firebase": "^5.0"
+        "php": "^8.0",
+        "kreait/laravel-firebase": "^4.2"
     }
 }
