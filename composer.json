@@ -2,6 +2,7 @@
     "name": "your-vendor/my-module",
     "description": "MyModule Firebase Connection",
     "type": "library",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Inesh Madhushan",
