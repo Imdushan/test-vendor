@@ -1,5 +1,5 @@
 {
-    "name": "your-vendor/my-module",
+    "name": "yourvendor/mymodule",
     "description": "MyModule Package",
     "type": "library",
     "authors": [
@@ -10,7 +10,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "MyModule\\": "src/"
+            "YourVendor\\MyModule\\": "src/"
         }
     }
 }
+
