@@ -1,16 +1,18 @@
 {
-    "name": "yourvendor/mymodule",
-    "description": "MyModule Package",
+    "name": "modularize/core",
+    "description": "Modular Core Functionality",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your.email@example.com"
+            "name": "Inesh Madhushan",
+            "email": "ineshmadhushan@gmail.com",
+            "role": "Developer"
         }
     ],
     "autoload": {
         "psr-4": {
-            "YourVendor\\MyModule\\": "src/"
+            "modularize\\core\\": "src/"
         }
     }
 }
