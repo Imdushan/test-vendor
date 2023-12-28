@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\MyModule\DynamicRequestHandler;
+namespace YourVendor\MyModule;
 
 use InvalidArgumentException;
 
