@@ -4,7 +4,7 @@ namespace YourVendor\MyModule;
 
 use InvalidArgumentException;
 
-class DynamicRequestHandlerTrait
+class DynamicRequestHandler
 {
     /**
      * Get a value from the request, or throw an exception if not present.
