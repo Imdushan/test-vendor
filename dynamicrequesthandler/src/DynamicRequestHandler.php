@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\MyModule;
+namespace YourVendor\MyModule\DynamicRequestHandler;
 
 use InvalidArgumentException;
 
@@ -17,7 +17,7 @@ class DynamicRequestHandler
      *
      * @throws InvalidArgumentException
      */
-    protected function getRequestValue(array $request, string $key, $default = null)
+    public static function getRequestValue(array $request, string $key, $default = null)
     {
         if (array_key_exists($key, $request)) {
             return $request[$key];
